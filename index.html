@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>PMM portfolio</title>
+  </head>
+  <body>
+    <!--NAVEGACIÓN-->
+    <div class="top-nav">
+      <div class="logo">
+        <img src="logo_0.png" alt="logo_circles_together" />
+      </div>
+      <nav class="nav-links">
+        <ul>
+          <li><a href="#">Works</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Resume</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <header>
+      <div class="description">
+        <h3>Who am I?</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur
+          adipisci earum explicabo eius commodi magni facilis, nisi temporibus
+          voluptatibus corporis exercitationem vitae eligendi laborum quia
+          fugiat. Aliquam commodi quis expedita.
+        </p>
+      </div>
+      <!--SKILLS-->
+      <div class="bars">
+        <h3>Programming Skills</h3>
+        <div class="skill-bars">
+          <div class="progress-fill-javascript"></div>
+          <span class="progress-text">Javascript 25%</span>
+        </div>
+        <div class="skill-bars">
+          <div class="progress-fill-html"></div>
+          <span class="progress-text">HTML 80%</span>
+        </div>
+        <div class="skill-bars">
+          <div class="progress-fill-css"></div>
+          <span class="progress-text">CSS 70%</span>
+        </div>
+      </div>
+    </header>
+
+    <!--FORM-->
+    <div class="contact">
+      <form>
+        <div>
+          <label for="name">name</label>
+          <input
+            required
+            id="name"
+            name="name"
+            type="text"
+            placeholder="name"
+          />
+        </div>
+        <div>
+          <label for="last name">last name</label>
+          <input required id="last name" name="last name" type="last name" />
+        </div>
+        <div>
+          <label for="telephone">telephone</label>
+          <input required id="telephone" name="telephone" type="telephone" />
+        </div>
+
+        <fieldset>
+          <legend>How did you find me?</legend>
+          <label for="uni"> Universidad</label>
+          <input
+            required
+            id="uni"
+            type="radio"
+            name="uni"
+            value="Universidad"
+          />
+          <label for="Keepcoding">Keepcoding</label>
+          <input
+            required
+            id="Keepcoding"
+            type="radio"
+            name="Keepcoding"
+            value="Keepcoding"
+          />
+          <label for="Colegio">Colegio</label>
+          <input
+            required
+            id="Colegio"
+            type="radio"
+            name="Colegio"
+            value="Colegio"
+          />
+        </fieldset>
+        <label for="moreinfo">More info</label>
+        <textarea maxlength="180" required id="moreinfo"></textarea>
+        <input type="submit" value="Send" />
+      </form>
+    </div>
+    <!--FOOTER-->
+  </body>
+</html>
